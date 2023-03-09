@@ -17,7 +17,7 @@ function ShowSearch({ setSearchTerm }) {
     <form onSubmit={handleSubmit}>
       <label htmlFor="search">Search for a TV Show:</label>
       <input id="search" value={newSearchTerm} onChange={handleChange} />
-      <button id="button" type="submit">
+      <button className="button" type="submit">
         Search
       </button>
     </form>
